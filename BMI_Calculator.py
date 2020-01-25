@@ -9,4 +9,4 @@ weight = float(input("Please enter your weight in kg: "))
 
 BMI = weight / ((height/100)**2)
 
-print("Your BMI is", BMI)
+print("Your BMI is", round(BMI,2))
