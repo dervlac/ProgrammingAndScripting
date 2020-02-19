@@ -1,3 +1,4 @@
+###Dervla Candon
 ###program which lets the user know if it is a weekday or the weekend
 ###shouldnt require any user input of the date
 
