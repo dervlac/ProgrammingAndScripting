@@ -7,13 +7,12 @@ To ensure the smooth operation of all files, it is recommended that the full rep
 
 
 The following software is required at a minimum in order to run the code:
-' - Python 3.8.x '
+ - Python 3.8.x 
 
 The following software have been utilised in the design and amending of the code within this repository, and are recommended as a potential medium from which you can run the code:
- '''
  - Visual Studio Code
  - CMDER
- '''
+
 
 The aim of the code included within this repository is to show, through the final product, the version history tracked within the repository, and the comments within the code, that an understanding of programming with Pyhton has been obtained throughout the course of this module.
 
