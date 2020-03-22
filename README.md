@@ -16,4 +16,27 @@ The following software have been utilised in the design and amending of the code
 
 The aim of the code included within this repository is to show, through the final product, the version history tracked within the repository, and the comments within the code, that an understanding of programming with Pyhton has been obtained throughout the course of this module.
 
+## Task Breakdown
+
+Weekly task and the associated file(s) are as follows:
+
+
+```
+Topic 2: BMI_Calculator.py
+
+Topic 3: Sentence.py
+
+Topic 4: Integer.py
+
+Topic 5: DayOfTheWeek.py
+
+Topic 6: functions.py AND squareroot.py
+
+Topic 7: fileread.py
+
+Topic 8: plots.py 
+```
+
+
+
 *All files within this repository have been created and updated by Dervla Candon*
