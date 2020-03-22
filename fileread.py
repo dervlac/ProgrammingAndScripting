@@ -8,8 +8,7 @@ x = input("Please enter the file location: ")
 with open(x,'r') as f:
     count = 0
     f.read()
-    print(f.tell())
-    for i in range(0,f.tell()+1):
+    for i in range(f.tell()+1):
         f.seek(i)   ###needs debugging
         ###this currently skips the first character
         if f.read(1) == 'e':

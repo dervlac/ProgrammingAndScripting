@@ -1,14 +1,16 @@
-###reverse a sentence
-###then return every second character
+###Dervla Candon
+### then return every second character of a sentence
+### in reverse
+### updated following feedback
 
-x = str(input("Please type a sentence: "))  ##user input required to start
-s1 = ""     ##two empty strings needed - one to reverse, then one to record every second character
-s2 = ""  ##initial attempt was with lists, but strings returns the results in a better format
-n = len(x)
+x = str(input("Please type a sentence: "))  
+## user input above is required to start
+n = len(x) 
+## using variable n to reduce clutter
+## for loop cycles through each character in the input string
 for i in range(n):
-    s1 += (x[n-i-1])     ##remove 1 as the count starts at zero, not one. removing i from n then counts down, rather than up
-    
-for j in range(n):
-    if (j-1)%2==0:  #looks at every second character, starting with the first character s1[0]
-        s2 += s1[j-1]       
-print(s2)   ##returns the finished result
+    ## below if loop means only every second character is printed
+    if i%2==0:
+        print(x[n-i-1], end="")
+        ## end value means there is no line break between characters
+  
